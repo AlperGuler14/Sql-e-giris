@@ -1,8 +1,7 @@
 # SQL Homework 03
 
-## 1. Country tablosunda 'A' karakteri ile başlayıp 'a' karakteri ile sonlanan ülke isimleri
+## 1. Country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralayınız.
 
-Bu sorgu, `country` tablosundaki `country` sütununda 'A' harfi ile başlayan ve 'a' harfi ile biten ülke isimlerini bulur.
 
 ```sql
 SELECT country FROM country 

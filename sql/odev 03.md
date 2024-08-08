@@ -1,8 +1,9 @@
-Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
+# SQL Homework 03
 
- 1.Country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralayınız.
+## 1. Country tablosunda 'A' karakteri ile başlayıp 'a' karakteri ile sonlanan ülke isimleri
 
-'''Sql
- 
-  SELECT country FROM country 
-   where country LIKE 'A%a' 
+Bu sorgu, `country` tablosundaki `country` sütununda 'A' harfi ile başlayan ve 'a' harfi ile biten ülke isimlerini bulur.
+
+```sql
+SELECT country FROM country 
+WHERE country LIKE 'A%a';

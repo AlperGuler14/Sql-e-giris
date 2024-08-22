@@ -1,3 +1,4 @@
+# SQL Homework 09
 
 ## 1.city tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
 

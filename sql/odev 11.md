@@ -21,8 +21,7 @@ INTERSECT
 );
 
 
-## 3.actor ve customer tablolarında bulunan first_name sütunları için ilk tabloda bulunan ancak ikinci tabloda bulunmayan verileri sıralayalım.İlk 3 sorguyu tekrar eden veriler için de yapalım..İlk 3 sorguyu tekrar eden veriler için de yapalım.İlk 3 sorguyu tekrar eden veriler için de yapalım.İlk 3 sorguyu tekrar eden veriler için de yapalım.
-
+## 3.actor ve customer tablolarında bulunan first_name sütunları için ilk tabloda bulunan ancak ikinci tabloda bulunmayan verileri sıralayalım.
 ```sql
 (
 SELECT first_name FROM actor
